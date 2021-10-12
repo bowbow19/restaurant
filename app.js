@@ -15,7 +15,6 @@ app.get('/',(req,res) =>{
 })
 
 app.get('/search',(req,res) =>{
-    console.log('search' , req.query)
     const keyword = req.query.keyword
     const pages = restaurantList.results.filter(item => {
         return  item.name.toLowerCase().includes(keyword.toLowerCase()) || item.category.toLowerCase().includes(keyword.toLowerCase())

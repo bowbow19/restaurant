@@ -21,7 +21,7 @@ npm  install express  //安裝npm套件
 ``` 
 3.安裝nodemon，使伺服器持續監聽並改變畫面
 ```
-npm nodemon install -g nodemon  //如已安裝過可省略
+npm  install -g nodemon  //如已安裝過可省略
 ```
 
 4.啟動伺服器
